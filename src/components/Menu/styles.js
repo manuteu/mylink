@@ -4,7 +4,7 @@ import { StatusBar, Platform } from 'react-native';
 export const BottonMenu = styled.TouchableOpacity`
   top: ${Platform.OS === 'ios'
     ? StatusBar.currentHeight + 40 + 'px'
-    : 10 + 'px'};
+    : 40 + 'px'};
   position: absolute;
   margin: 0 20px;
   justifyContent: space-around;
