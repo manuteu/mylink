@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 export default function ListItem() {
   return (
     <View>
-      <Text>Sakve</Text>
+      <Text>Salve de mais</Text>
     </View>
   );
 }
